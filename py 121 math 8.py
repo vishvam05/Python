@@ -1,0 +1,13 @@
+x=[]
+x.append("c")
+x.append("java")
+x.append("py")
+x.append("android")
+x.append("ios")
+print(x)
+first_item=x.pop()
+print("first item is ",first_item)
+print(x)
+first_item=x.pop()
+print("first item now is ",first_item)
+print(x)

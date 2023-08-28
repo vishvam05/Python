@@ -1,0 +1,5 @@
+tuple1=("apple","kiwi","banana","cherry")
+y=list(tuple1)
+y.append("kela")
+tuple1=tuple(y)
+print(tuple1)

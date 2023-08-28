@@ -1,0 +1,5 @@
+numbers=list(map(int,input().split()))
+numbers.sort()
+print('sorted list ascending:',numbers)
+numbers.sort(reverse=True)
+print('sorted list descending:',numbers)

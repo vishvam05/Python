@@ -1,0 +1,10 @@
+import queue
+n=queue.Queue(maxsize=10)
+n.put(4)
+n.put(7)
+n.put(3)
+n.put(21)
+print(n.get())
+print(n.get())
+print(n.get())
+print(n.get())

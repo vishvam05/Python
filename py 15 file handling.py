@@ -1,0 +1,6 @@
+textfile=open('filehandling 1.txt','w')
+textfile.write("kyaa haal haii")
+textfile.close()
+textfile=open('filehandling 1.txt','a')
+textfile.write(' cheeto!!')
+textfile.close()
